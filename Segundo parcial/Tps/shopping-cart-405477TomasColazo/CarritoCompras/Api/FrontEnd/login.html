@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <form class="login-form" action="altaPiloto.html" method="get" novalidate>
+        <div class="mb-3">
+          <!-- <label for="inputemail" class="form-label">Usuario</label> -->
+          <h4 class="mb-3">Usuario</h4>
+          <input
+            type="email"
+            name="email"
+            class="form-control"
+            placeholder="Ingrese su usuario..."
+            id="inputemail"
+            aria-describedby="emailHelp"
+          />
+        </div>
+        <div class="mb-3">
+          <h4 class="mb-3">Clave</h4>
+          <input
+            type="password"
+            name="clave"
+            placeholder="Ingrese su clave..."
+            class="form-control"
+            id="inputPassword"
+          />
+        </div>
+        <div class="separator"></div>
+        <div style="align-content: center">
+          <button type="submit" class="btn btn-primary" id="loginBtn">
+            Ingresar
+          </button>
+        </div>
+      </form>
+      <!-- <div id="mensajeError" style="display: none; color: red">
+        Credenciales incorrectas
+      </div> -->
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+    <!-- <script src="script.js"></script> -->
+    <script>
+      $(document).ready(function () {
+        $.validator.addMethod(
+          "credenciales",
+          function (value, element) {
+            return (
+              $("#inputemail").val() === "tup2022@tup.com.ar" &&
+              $("#inputPassword").val() === "123456"
+            );
+          },
+          "Credenciales incorrectas"
+        );
+
+        var validator = $("form").validate({
+          rules: {
+            email: {
+              required: true,
+              email: true,
+            },
+            clave: {
+              required: true,
+              credenciales: true,
+            },
+          },
+          messages: {
+            email: {
+              required: "Debe llenar el campo usuario.",
+              email: "Debe ingresar un mail valido.",
+            },
+            clave: {
+              required: "Debe llenar el campo clave.",
+              credenciales: "Credenciales Incorrectas.",
+            },
+          },
+          /* errorPlacement: function (error, element) {
+            if (element.attr("name") == "clave") {
+              error.insertAfter("#mensajeError");
+            } else {
+              error.insertAfter(element);
+            }
+          }, */
+          submitHandler: function (form) {
+            form.submit();
+          },
+        });
+
+        /* $("#loginBtn").click(function (event) {
+          validator.form();
+          if (!validator.form()) {
+            $("#mensajeError").show();
+          } else {
+            $("#mensajeError").hide();
+          }
+          event.preventDefault();
+        }); */
+      });
+
+      /* $.validator.addMethod(
+        "credenciales",
+        function (value, element) {
+          return (
+            $("#inputEmail").val() === "tup2022@tup.com.ar" &&
+            $("#inputPassword").val() === "123456"
+          );
+        },
+        "Credenciales incorrectas"
+      );
+      var validator = $("form").validate({
+        rules: {
+          email: {
+            required: true,
+            email: true,
+          },
+          clave: {
+            required: true,
+            credenciales: true,
+          },
+        },
+        messages: {
+          email: {
+            required: "Debe llenar el campo usuario.",
+            email: "Debe ingresar un mail valido.",
+          },
+          clave: {
+            required: "Debe llenar el campo clave.",
+            credenciales: "Credenciales Incorrectas.",
+          },
+        },
+        errorPlacement: function (error, element) {
+          if (element.attr("name") == "clave") {
+            error.insertAfter("#mensajeError");
+          } else {
+            error.insertAfter(element);
+          }
+        },
+        submitHandler: function (form) {
+          form.submit();
+        },
+      });
+      $("#loginBtn").click(function (event) {
+        validator.form();
+        if (!validator.form()) {
+          $("#mensajeError").show();
+        } else {
+          $("#mensajeError").hide();
+        }
+        event.preventDefault();
+      }); */
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

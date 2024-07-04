@@ -1,0 +1,63 @@
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\bin\Debug\net6.0\appsettings.Development.json
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\bin\Debug\net6.0\appsettings.json
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\bin\Debug\net6.0\Prueba Scaffollding.exe
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\bin\Debug\net6.0\Prueba Scaffollding.deps.json
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\bin\Debug\net6.0\Prueba Scaffollding.runtimeconfig.json
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\bin\Debug\net6.0\Prueba Scaffollding.dll
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\bin\Debug\net6.0\Prueba Scaffollding.pdb
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\bin\Debug\net6.0\Humanizer.dll
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\obj\Debug\net6.0\Prueba Scaffollding.csproj.AssemblyReference.cache
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\obj\Debug\net6.0\Prueba Scaffollding.GeneratedMSBuildEditorConfig.editorconfig
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\obj\Debug\net6.0\Prueba Scaffollding.AssemblyInfoInputs.cache
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\obj\Debug\net6.0\Prueba Scaffollding.AssemblyInfo.cs
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\obj\Debug\net6.0\Prueba Scaffollding.csproj.CoreCompileInputs.cache
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\obj\Debug\net6.0\Prueba Scaffollding.MvcApplicationPartsAssemblyInfo.cs
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\obj\Debug\net6.0\Prueba Scaffollding.MvcApplicationPartsAssemblyInfo.cache
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\obj\Debug\net6.0\staticwebassets.build.json
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\obj\Debug\net6.0\staticwebassets.development.json
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\obj\Debug\net6.0\scopedcss\bundle\Prueba Scaffollding.styles.css
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\obj\Debug\net6.0\Prueba Scaffollding.csproj.CopyComplete
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\obj\Debug\net6.0\Prueba Scaffollding.dll
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\obj\Debug\net6.0\refint\Prueba Scaffollding.dll
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\obj\Debug\net6.0\Prueba Scaffollding.pdb
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\obj\Debug\net6.0\Prueba Scaffollding.genruntimeconfig.cache
+D:\Facu\Prog 3\Segundo parcial\Prueba Scaffollding\obj\Debug\net6.0\ref\Prueba Scaffollding.dll

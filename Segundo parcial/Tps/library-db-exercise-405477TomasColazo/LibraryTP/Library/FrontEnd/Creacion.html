@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Alta de Libro</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+          crossorigin="anonymous" />
+</head>
+<body>
+    <div class="container">
+        <form class="login-form g-3" id="alta" novalidate>
+            <div class="row mb-3">
+                <h3>Alta de nuevo libro</h3>
+                <div class="col-6">
+                    <label for="inputIsbn" class="form-label">ISBN</label>
+                    <input type="text"
+                           class="form-control"
+                           placeholder="Ingrese el codigo ISBN del libro..."
+                           name="isbn"
+                           id="inputIsbn"
+                           aria-label="Isbn"
+                           aria-describedby="basic-addon1" />
+                </div>
+                <div class="col-6">
+                    <label for="inputTitulo" class="form-label" id="labelTitulo">Titulo</label>
+                    <input type="text"
+                           class="form-control bordear"
+                           placeholder="Ingrese el titulo del libro..."
+                           name="titulo"
+                           id="inputTitulo"
+                           aria-label="Titulo"
+                           aria-describedby="basic-addon2" />
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-6 mb-3">
+                    <label for="inputAutor" class="form-label">Autor</label>
+                    <select class="form-select" name="autor" id="autor">
+                        <option value="" selected>Seleccione un autor...</option>
+                    </select>
+                </div>
+                <div class="col-6 mb-3">
+                    <label for="inputGenero" class="form-label">Genero</label>
+                    <select class="form-select" name="genero" id="genero">
+                        <option value="" selected>Seleccione un genero...</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <button type="button" class="btn btn-primary col-6 mb-3" id="guardar" onclick="guardarLibro()">
+                    Guardar
+                </button>
+                <button type="button" class="col-6 btn btn-secondary mb-3" onclick="window.location.replace('Listado.html');">Volver</button>
+            </div>
+
+            <div class="col-12 mb-3 d-flex">
+                <a href="login.html" class="col-12">Volver</a>
+            </div>
+
+            <div class="col-12" id="errores">
+                <p class="ms-3 mt-2 mb-0">Errores en el formulario</p>
+                <li class="ms-5" id="error1">...</li>
+                <li class="ms-5" id="error2">...</li>
+                <li class="ms-5" id="error3">...</li>
+                <li class="ms-5" id="error4">...</li>
+                <li class="ms-5 mb-4" id="error5">...</li>
+            </div>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+</body>
+</html>

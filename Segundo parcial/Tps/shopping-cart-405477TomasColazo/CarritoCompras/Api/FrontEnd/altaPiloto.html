@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Alta de piloto</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <form class="login-form g-3" id="alta" novalidate>
+        <div class="row mb-3">
+          <h3>Alta de Piloto</h3>
+          <div class="col-6">
+            <label for="inputNombre" class="form-label">Nombre</label>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Ingrese su nombre..."
+              name="nombre"
+              id="inputNombre"
+              aria-label="Nombre"
+              aria-describedby="basic-addon1"
+            />
+          </div>
+          <div class="col-6">
+            <label for="inputApellido" class="form-label" id="labelApellido"
+              >Apellido</label
+            >
+            <input
+              type="text"
+              class="form-control bordear"
+              placeholder="Ingrese su apellido..."
+              name="apellido"
+              id="inputApellido"
+              aria-label="Apellido"
+              aria-describedby="basic-addon2"
+            />
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col-6">
+            <label for="inputHsVuelo" class="form-label">Horas de vuelo</label>
+            <input
+              type="number"
+              class="form-control"
+              name="hsVuelo"
+              id="inputHsVuelo"
+              aria-label="Nombre"
+              aria-describedby="basic-addon1"
+            />
+          </div>
+          <div class="col-6">
+            <div class="row -mb-3">
+              <label for="inputTipoVuelo" class="form-label">Tipo Vuelo</label>
+            </div>
+            <div class="mb-3 d-flex justify-content-center">
+              <div class="form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="tipoVuelo"
+                  id="cabotaje"
+                  value="cabotaje"
+                />
+                <label class="form-check-label" for="cabotaje">
+                  Cabotaje
+                </label>
+              </div>
+              <div class="form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="tipoVuelo"
+                  id="internacional"
+                  value="internacional"
+                />
+                <label class="form-check-label" for="internacional">
+                  Internacional
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 mb-3">
+          <label for="inputPais" class="form-label">Nacionalidad</label>
+          <select class="form-select" name="nacionalidad" id="nacionalidad">
+            <option value="" selected>Seleccionar</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Chile">Chile</option>
+            <option value="Uruguay">Uruguay</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary col-12 mb-3" id="guardar">
+          Guardar
+        </button>
+        <div class="col-12 mb-3 d-flex">
+          <a href="login.html" class="col-12">Volver</a>
+        </div>
+
+        <div class="col-12" id="errores">
+          <p class="ms-3 mt-2 mb-0">Errores en el formulario</p>
+          <li class="ms-5" id="error1">...</li>
+          <li class="ms-5" id="error2">...</li>
+          <li class="ms-5" id="error3">...</li>
+          <li class="ms-5" id="error4">...</li>
+          <li class="ms-5 mb-4" id="error5">...</li>
+        </div>
+      </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

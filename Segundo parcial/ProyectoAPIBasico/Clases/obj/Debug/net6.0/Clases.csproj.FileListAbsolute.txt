@@ -1,0 +1,12 @@
+D:\Facu\Prog 3\Segundo parcial\ProyectoAPIBasico\Clases\bin\Debug\net6.0\Clases.deps.json
+D:\Facu\Prog 3\Segundo parcial\ProyectoAPIBasico\Clases\bin\Debug\net6.0\Clases.dll
+D:\Facu\Prog 3\Segundo parcial\ProyectoAPIBasico\Clases\bin\Debug\net6.0\Clases.pdb
+D:\Facu\Prog 3\Segundo parcial\ProyectoAPIBasico\Clases\obj\Debug\net6.0\Clases.csproj.AssemblyReference.cache
+D:\Facu\Prog 3\Segundo parcial\ProyectoAPIBasico\Clases\obj\Debug\net6.0\Clases.GeneratedMSBuildEditorConfig.editorconfig
+D:\Facu\Prog 3\Segundo parcial\ProyectoAPIBasico\Clases\obj\Debug\net6.0\Clases.AssemblyInfoInputs.cache
+D:\Facu\Prog 3\Segundo parcial\ProyectoAPIBasico\Clases\obj\Debug\net6.0\Clases.AssemblyInfo.cs
+D:\Facu\Prog 3\Segundo parcial\ProyectoAPIBasico\Clases\obj\Debug\net6.0\Clases.csproj.CoreCompileInputs.cache
+D:\Facu\Prog 3\Segundo parcial\ProyectoAPIBasico\Clases\obj\Debug\net6.0\Clases.dll
+D:\Facu\Prog 3\Segundo parcial\ProyectoAPIBasico\Clases\obj\Debug\net6.0\refint\Clases.dll
+D:\Facu\Prog 3\Segundo parcial\ProyectoAPIBasico\Clases\obj\Debug\net6.0\Clases.pdb
+D:\Facu\Prog 3\Segundo parcial\ProyectoAPIBasico\Clases\obj\Debug\net6.0\ref\Clases.dll

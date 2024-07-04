@@ -1,0 +1,20 @@
+dotnet add package 'nombre paquete'
+
+dotnet add package Microsoft.EntityFrameworkCore
+
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+
+dotnet add package Microsoft.EntityFrameworkCore.Tools
+
+dotnet add package Microsoft.EntityFrameworkCore.Design
+
+
+dotnet tool install --global dotnet-ef --version 6.0.16 (probar version mas nueva)
+
+scaffolding
+dotnet ef dbcontext scaffold "connection string" Microsoft.EntityFrameworkCore.SqlServer -o Domain --context DbContextTest
+
+code first
+
+add-migration init
+update-database
